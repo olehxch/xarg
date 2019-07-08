@@ -1,0 +1,46 @@
+{
+  "name": "xarg",
+  "version": "1.0.0",
+  "description": "A small tool for validating arguments in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --runInBand",
+    "test-cov": "jest --verbose --runInBand --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/audiowaves/xarg"
+  },
+  "homepage": "https://github.com/audiowaves/xarg",
+  "author": "Oleh",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "24.8.0"
+  },
+  "dependencies": {
+    "lodash": "4.17.11"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "collectCoverage": false,
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ],
+    "coverageDirectory": ".coverage",
+    "coverageReporters": [
+      "lcov"
+    ],
+    "globals": {
+      "NODE_ENV": "test",
+      "JEST_USE_BASENAME_FOR_CACHING": false
+    },
+    "modulePathIgnorePatterns": [
+      "node_modules/"
+    ],
+    "roots": [
+      "<rootDir>/lib/"
+    ],
+    "cacheDirectory": "<rootDir>/.jestcache"
+  }
+}
