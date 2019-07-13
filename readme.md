@@ -8,6 +8,9 @@ A small tool for validating arguments in JavaScript
 
 ### Usage
 
+Every function will check if passed variable is defined and if it have a value of a specific type. 
+This will throw an assertion error when values are not valid.
+
 A list of available functions:
 
  * isArray()
@@ -31,6 +34,20 @@ To test your arguments you need to pass an object with the data. For example:
 
 ```js
 xarg.isArray({a: [], b:[1,2,3], c: {}})
+```
+
+### Examples
+
+```js
+function hello(text, age) {
+  xarg.isArray({text});
+  xarg.isNumber({age});
+}
+  
+hello('John', 25); // OK
+hello([]); // AssertionError [ERR_ASSERTION]: "text" should be of type String, but got: object
+hello('John'); // AssertionError [ERR_ASSERTION]: "age" should be defined
+hello('John', 'abc'); // AssertionError [ERR_ASSERTION]: "age" should be of type Number, but got: string
 ```
 
 ### Tests
