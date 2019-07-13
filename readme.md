@@ -40,7 +40,7 @@ xarg.isArray({a: [], b:[1,2,3], c: {}})
 
 ```js
 function hello(text, age) {
-  xarg.isArray({text});
+  xarg.isString({text});
   xarg.isNumber({age});
 }
   
