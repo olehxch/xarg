@@ -13,8 +13,11 @@ This will throw an assertion error when values are not valid.
 
 A list of available functions:
 
+ * isArguments()
  * isArray()
+ * isArrayBuffer()
  * isBoolean()
+ * isBuffer()
  * isDate()
  * isDefined()
  * isError()
