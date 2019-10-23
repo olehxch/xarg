@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/xarg.svg)](https://badge.fury.io/js/xarg)
+[![Build Status](https://travis-ci.org/audiowaves/xarg.svg?branch=master)](https://travis-ci.org/audiowaves/xarg)
+
 # xarg
 
 A small tool for validating arguments in JavaScript
