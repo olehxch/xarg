@@ -11,6 +11,19 @@
     "type": "git",
     "url": "https://github.com/audiowaves/xarg"
   },
+  "keywords": [
+    "arguments",
+    "assertion",
+    "check",
+    "tools",
+    "type",
+    "types",
+    "typesafe",
+    "utilities",
+    "utils",
+    "validation",
+    "xarg"
+  ],
   "homepage": "https://github.com/audiowaves/xarg",
   "author": "Oleh",
   "license": "MIT",
