@@ -7,11 +7,6 @@
     "test": "jest --verbose --runInBand",
     "test-cov": "jest --verbose --runInBand --coverage"
   },
-  "author": "Oleh Chaplia",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/audiowaves/xarg"
-  },
   "keywords": [
     "arguments",
     "assertion",
@@ -25,14 +20,22 @@
     "validation",
     "xarg"
   ],
-  "homepage": "https://github.com/audiowaves/xarg",
-  "author": "Oleh",
+  "homepage": "https://github.com/ochaplia/xarg",
+  "author": "Oleh Chaplia",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ochaplia/xarg"
+  },
   "license": "MIT",
   "devDependencies": {
-    "jest": "^27.5.1"
+    "jest": "^29.5.0"
   },
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "engines" : { 
+    "npm" : "9.5.1",
+    "node" : "18.16.1"
   },
   "jest": {
     "verbose": true,

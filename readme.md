@@ -1,5 +1,5 @@
 [![npm version](https://badge.fury.io/js/xarg.svg)](https://badge.fury.io/js/xarg)
-[![Build Status](https://travis-ci.org/audiowaves/xarg.svg?branch=master)](https://travis-ci.org/audiowaves/xarg)
+[![Build Status](https://travis-ci.org/ochaplia/xarg.svg?branch=master)](https://travis-ci.org/ochaplia/xarg)
 
 # xarg
 
