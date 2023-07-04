@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/xarg.svg)](https://badge.fury.io/js/xarg)
 [![CodeQL](https://github.com/ochaplia/xarg/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ochaplia/xarg/actions/workflows/codeql-analysis.yml)
-[![Build Status](https://travis-ci.org/ochaplia/xarg.svg?branch=master)](https://travis-ci.org/ochaplia/xarg)
+[![Build Status](https://app.travis-ci.com/ochaplia/xarg.svg?branch=master)](https://travis-ci.org/ochaplia/xarg)
 
 # xarg
 
