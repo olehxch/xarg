@@ -1,6 +1,6 @@
 {
   "name": "xarg",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A small tool for validating arguments in JavaScript",
   "main": "index.js",
   "scripts": {
@@ -33,9 +33,9 @@
   "dependencies": {
     "lodash": "^4.17.21"
   },
-  "engines" : { 
-    "npm" : "9.5.1",
-    "node" : "18.16.1"
+  "engines": {
+    "npm": "9.5.1",
+    "node": "18.16.1"
   },
   "jest": {
     "verbose": true,
